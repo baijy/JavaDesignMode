@@ -26,9 +26,6 @@ public class CglibProxy implements MethodInterceptor {
 		return proxyObj;
 	}
 	
-	//  public Object intercept(Object proxy, Method method, Object[] args, MethodProxy methodProxy) throws Throwable {
-
-	
 	public Object intercept(Object proxy, Method method, Object[] args, MethodProxy methodProxy) throws Throwable {
 		Object obj = null;
 		System.out.println("--before, cglib proxy do some thing ...");
