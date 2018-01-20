@@ -1,7 +1,7 @@
 package com.jianyu.dp.strategy;
 
 /**
- * 会员策略接口
+ * 浼氬憳绛栫暐鎺ュ彛
  * @author BaiJianyu
  *
  */

@@ -1,8 +1,8 @@
 package com.jianyu.dp.template;
 
 /**
- * 模板模式测试方法
- * 参考：http://ifeve.com/template-method-design-pattern/
+ * 妯℃澘妯″紡娴嬭瘯鏂规硶
+ * 鍙傝�冿細http://ifeve.com/template-method-design-pattern/
  * @author BaiJianyu
  *
  */

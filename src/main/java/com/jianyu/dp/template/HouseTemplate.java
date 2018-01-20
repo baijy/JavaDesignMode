@@ -1,34 +1,34 @@
 package com.jianyu.dp.template;
 
 /**
- * ½¨Ôì·¿×ÓµÄÄ£°å£¬³éÏóÀà
+ * å»ºé€ æˆ¿å­çš„æ¨¡æ¿ï¼ŒæŠ½è±¡ç±»
  * @author BaiJianyu
  *
  */
 public abstract class HouseTemplate {
-	// Ä£°å·½·¨£¬×ÓÀà²»¿ÉÒÔÖØĞ´
+	// æ¨¡æ¿æ–¹æ³•ï¼Œå­ç±»ä¸å¯ä»¥é‡å†™
 	public final void buildHouse(){
 		buildFoundation();
 		buildPillars();
 		buildWalls();
 		buildWindows();
-		System.out.println("½¨·¿µÄ¹¤ĞòÒÑ¾­Íê³É£¡");
+		System.out.println("å»ºæˆ¿çš„å·¥åºå·²ç»å®Œæˆï¼");
 	}
 	
-	// ´òµØ»ù
+	// æ‰“åœ°åŸº
 	public void buildFoundation(){
-		System.out.println("¿ªÊ¼´òµØ»ùÁË£¡");
+		System.out.println("å¼€å§‹æ‰“åœ°åŸºäº†ï¼");
 	};
 	
-	//ÔÚ×ÓÀàÖĞ±ØĞëÊµÏÖµÄ·½·¨
-	// ´òÖù×Ó
+	//åœ¨å­ç±»ä¸­å¿…é¡»å®ç°çš„æ–¹æ³•
+	// æ‰“æŸ±å­
 	public abstract void buildPillars();
-	// ÆöÇ½
+	// ç Œå¢™
 	public abstract void buildWalls();
 	
-	// Æö´°»§£¬ÓĞÄ¬ÈÏÊµÏÖ£¬¿ÉÒÔ±»ÖØĞ´
+	// ç Œçª—æˆ·ï¼Œæœ‰é»˜è®¤å®ç°ï¼Œå¯ä»¥è¢«é‡å†™
 	public void buildWindows(){
-		System.out.println("Ê¹ÓÃ²£Á§´°»§");
+		System.out.println("ä½¿ç”¨ç»ç’ƒçª—æˆ·");
 	}
 	
 	

@@ -3,7 +3,7 @@ package com.jianyu.dp.prototype;
 import java.util.ArrayList;
 
 /**
- * ¼òÀúÀà£¬ÆäÖĞ°üº¬¹¤×÷¾­Ñé¶ÔÏó
+ * ç®€å†ç±»ï¼Œå…¶ä¸­åŒ…å«å·¥ä½œç»éªŒå¯¹è±¡
  * 
  * @author BaiJianyu
  * 
@@ -12,7 +12,7 @@ public class Resume implements Cloneable {
 	private String name;
 	private int age;
 	private String sex;
-	public ArrayList<String> familyMembers = new ArrayList<String>(); // ¼ÒÍ¥³ÉÔ±
+	public ArrayList<String> familyMembers = new ArrayList<String>(); // å®¶åº­æˆå‘˜
 	private WorkExperience workExp = new WorkExperience();
 
 	public Resume(String name, ArrayList<String> familyMembers) {
@@ -44,7 +44,7 @@ public class Resume implements Cloneable {
 		this.sex = sex;
 	}
 
-	// Îª¸´ÔÓ¶ÔÏó¸³Öµ
+	// ä¸ºå¤æ‚å¯¹è±¡èµ‹å€¼
 	public void setPersonal(String sex, int age) {
 		this.age = age;
 		this.sex = sex;
@@ -62,19 +62,19 @@ public class Resume implements Cloneable {
 		return workExp;
 	}
 
-	// Ç³¿½±´£º¸´ÖÆ¶ÔÏóÊ±£¬Öğ¸ö¸´ÖÆÆäÊôĞÔ
+	// æµ…æ‹·è´ï¼šå¤åˆ¶å¯¹è±¡æ—¶ï¼Œé€ä¸ªå¤åˆ¶å…¶å±æ€§
 	public void setWorkExp(String timeArea, String company) {
 		this.workExp.timeArea = timeArea;
 		this.workExp.company = company;
 	}
 
-	// ±ØĞëÖØĞ´clone·½·¨
+	// å¿…é¡»é‡å†™cloneæ–¹æ³•
 	@Override
 	public Resume clone() throws CloneNotSupportedException {
 		return (Resume) super.clone();
 	}
 
-	//Éî¿½±´£¬ÎªÃ¿¸ö×Ö¶Î¶¼´´½¨ĞÂµÄ¶ÔÏó
+	//æ·±æ‹·è´ï¼Œä¸ºæ¯ä¸ªå­—æ®µéƒ½åˆ›å»ºæ–°çš„å¯¹è±¡
 	public Resume deepClone() {
 		int age = this.age;
 		String sex = this.sex;
@@ -87,15 +87,15 @@ public class Resume implements Cloneable {
 		return copy;
 	}
 
-	// ´òÓ¡·½·¨
+	// æ‰“å°æ–¹æ³•
 	public void display() {
-		System.out.println("ĞÕÃû£º" + this.name + ",ĞÔ±ğ£º" + this.sex + ",ÄêÁä£º"
+		System.out.println("å§“åï¼š" + this.name + ",æ€§åˆ«ï¼š" + this.sex + ",å¹´é¾„ï¼š"
 				+ this.age);
-		System.out.println("¼ÒÍ¥³ÉÔ±ÓĞ:");
+		System.out.println("å®¶åº­æˆå‘˜æœ‰:");
 		for (String mem : familyMembers) {
 			System.out.println("  " + mem);
 		}
-		System.out.println(this.workExp.timeArea + "Ôø¾­ÔÚ" + this.workExp.company
-				+ "¹¤×÷¹ı");
+		System.out.println(this.workExp.timeArea + "æ›¾ç»åœ¨" + this.workExp.company
+				+ "å·¥ä½œè¿‡");
 	}
 }

@@ -1,21 +1,21 @@
 package com.jianyu.dp.strategy;
 
 /**
- * ¼Û¸ñÀà
+ * ä»·æ ¼ç±»
  * @author BaiJianyu
  *
  */
 public class Price {
-	// ³ÖÓĞ²ßÂÔ¶ÔÏó
+	// æŒæœ‰ç­–ç•¥å¯¹è±¡
 	private IMemberStrategy strategy;
 	
-	// ¹¹Ôìº¯Êı´«Èë¾ßÌå²ßÂÔ
+	// æ„é€ å‡½æ•°ä¼ å…¥å…·ä½“ç­–ç•¥
 	public Price(IMemberStrategy strategy){
 		this.strategy = strategy;
 	}
 	
 	/**
-	 * µ÷ÓÃ²ßÂÔ·½·¨£¬¼ÆËãÕÛ¿ÛºóµÄ¼Û¸ñ
+	 * è°ƒç”¨ç­–ç•¥æ–¹æ³•ï¼Œè®¡ç®—æŠ˜æ‰£åçš„ä»·æ ¼
 	 * @param price
 	 * @return
 	 */

@@ -1,7 +1,7 @@
 package com.jianyu.dp.template;
 
 /**
- * ½¨²£Á§·¿
+ * å»ºç»ç’ƒæˆ¿
  * @author BaiJianyu
  *
  */
@@ -9,13 +9,13 @@ public class GlassHouse extends HouseTemplate {
 
 	@Override
 	public void buildPillars() {
-		System.out.println("½¨²£Á§·¿£¬´òÖù×Ó¿©£¡ÓÃ¸ÖÌú×öÖù×Ó");
+		System.out.println("å»ºç»ç’ƒæˆ¿ï¼Œæ‰“æŸ±å­å’¯ï¼ç”¨é’¢é“åšæŸ±å­");
 
 	}
 
 	@Override
 	public void buildWalls() {
-		System.out.println("½¨²£Á§·¿£¬ÆöÇ½¿©£¡ÓÃ²£Á§×öÇ½±Ú");
+		System.out.println("å»ºç»ç’ƒæˆ¿ï¼Œç Œå¢™å’¯ï¼ç”¨ç»ç’ƒåšå¢™å£");
 
 	}
 

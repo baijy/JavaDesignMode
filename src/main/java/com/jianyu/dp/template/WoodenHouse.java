@@ -4,18 +4,18 @@ public class WoodenHouse extends HouseTemplate {
 
 	@Override
 	public void buildPillars() {
-		System.out.println("½¨Ä¾Í··¿£¬´òÖù×Ó¿©£¡ÓÃÄ¾Í·´òÖù×Ó");
+		System.out.println("å»ºæœ¨å¤´æˆ¿ï¼Œæ‰“æŸ±å­å’¯ï¼ç”¨æœ¨å¤´æ‰“æŸ±å­");
 
 	}
 
 	@Override
 	public void buildWalls() {
-		System.out.println("½¨Ä¾Í··¿£¬ÆöÇ½¿©£¡ÓÃÄ¾Í·×öÇ½±Ú");
+		System.out.println("å»ºæœ¨å¤´æˆ¿ï¼Œç Œå¢™å’¯ï¼ç”¨æœ¨å¤´åšå¢™å£");
 
 	}
 	
 	@Override
 	public void buildWindows(){
-		System.out.println("Ä¾Í··¿×Ó£¬´°»§²»ÓÃ²£Á§£¡");
+		System.out.println("æœ¨å¤´æˆ¿å­ï¼Œçª—æˆ·ä¸ç”¨ç»ç’ƒï¼");
 	}
 }

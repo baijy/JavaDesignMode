@@ -1,7 +1,7 @@
 package com.jianyu.dp.strategy;
 
 /**
- * 初级会员优惠策略
+ * 鍒濈骇浼氬憳浼樻儬绛栫暐
  * @author BaiJianyu
  *
  */
